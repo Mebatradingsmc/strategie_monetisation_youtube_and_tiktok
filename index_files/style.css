@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html, body{
+  margin:0px;
+  padding:0px;
+  background: url("images/back.jpg") repeat-y center center fixed;
+  background-color:#E9EBEB;
+}
+
+.logo {
+padding-bottom:40px;
+	
+}
+
+.row p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	color: #000;
+	text-align:center;
+}
+
+.menu_holder{
+  background-color:#F7F7F7;
+  padding-top:20px;
+  padding-bottom:20px;
+  border-radius:5px;
+  border-bottom: 2px solid #e45c5f;
+  text-align: center;
+
+}
+
+.monezi_holder{
+  margin:10px 0px 10px 0px;
+  border:1px solid #ddd;
+  border-radius:5px;
+  background-color:#fff;
+  border-radius:5px;
+
+}
+
+.moneda_holder1 {
+  cursor:pointer;
+  padding:5px 15px 5px 0px;
+  text-align:right;
+  border-bottom:1px solid #ddd;
+
+}
+
+.moneda_holder2 {
+  cursor:pointer;
+  padding:5px 15px 5px 0px;
+  border-bottom:1px solid #ddd;
+
+}
+
+.coin_selected{
+  background-color:#337AB7;
+  color:#fff;
+
+}
+
+.coin_hover:hover{
+  background-color:#e6e6e6;
+}
+
+.coin_not_allowed{
+  cursor:not-allowed;
+  color:#999;
+}
+
+.coin_logo{
+  width:35px;
+  margin-left:10px;
+}
+
+.form_arrows{
+  font-size:18px;
+  padding:5px ;
+}
+
+.form_holder{
+  /*display:none;*/
+  margin:10px 0px 10px 0px;
+  border:1px solid #ddd;
+  border-radius:5px;
+  padding:15px;
+  background-color:#fff;
+}
+
+.left_right_arrows{
+  display:none;
+  margin-top:40px;
+  text-align:center;
+  font-size:50px;
+  vertical-align: middle;
+}
+
+.footer {
+  margin-top:30px;
+  height:auto;
+  background : #F7F7F7;
+  font-color : #000;
+  border-radius:3px;
+}
+
+.footer p {
+        font-family: 'Raleway', sans-serif;
+        padding:11px;
+	font-size: 13px;
+	font-weight: 400;
+	color: #000;
+	text-align:center;
+}

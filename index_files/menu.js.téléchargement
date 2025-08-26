@@ -1,0 +1,64 @@
+function coin_selected1(coinId){
+
+  if(coinId != coin1Id){
+
+    coin1Id = coinId;
+
+    coin2Id = 'x';
+
+    $('.form_holder').hide();
+
+    $('.left_right_arrows').show();
+
+
+
+    $('.menu_2').removeClass('coin_selected');
+
+    $('.menu_2').addClass('coin_hover');
+
+
+
+    $('.menu_2').removeClass('coin_hover');
+
+
+
+    $('.menu_1').removeClass('coin_selected');
+
+    $('.menu_1_'+coinId).removeClass('coin_hover');
+
+    $('.menu_1_'+coinId).addClass('coin_selected');
+
+
+
+    $('.menu_1').removeClass('coin_not_allowed');
+
+    $('.menu_2').removeClass('coin_not_allowed');
+
+    $('.menu_2_'+coinId).addClass('coin_not_allowed');
+
+  }
+
+}
+
+
+
+function coin_selected2(coinId){
+
+  if(coinId != coin1Id && coinId != coin2Id){
+
+    coin2Id = coinId;
+
+    $('.menu_2').removeClass('coin_selected');
+
+    $('.menu_2').addClass('coin_hover');
+
+    $('.menu_2_'+coinId).removeClass('coin_hover');
+
+    $('.menu_2_'+coinId).addClass('coin_selected');
+
+    window.location.href = GLOBALSURL+constants[coin1Id]+'-to-'+constants[coin2Id];
+
+  }
+
+}
+
